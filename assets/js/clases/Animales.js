@@ -15,7 +15,7 @@ class Animales {
     this.getSonido = () => Sonido;
 
     this.setComentarios = (comentarios) => (Comentarios = comentarios);
-    this.setSonido = (sonido) => (Sonidos = sonidos);
+    this.setSonido = (sonido) => (Sonido = sonido);
   }
   get Nombre() {
     return this.getNombre();

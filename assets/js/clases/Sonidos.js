@@ -8,7 +8,7 @@ class Leon extends Animales {
   }
   Rugir() {
     let sonido = this.getSonido();
-    return "/assets/sounds/Rugido.mp3";
+    this.setSonido = "./assets/sounds/Rugido.mp3";
   }
 }
 
@@ -18,7 +18,7 @@ class Lobo extends Animales {
   }
   Aullar() {
     let sonido = this.getSonido();
-    this.setSonido("aullar");
+    return "./assets/sounds/Aullido.mp3";
   }
 }
 
@@ -28,7 +28,7 @@ class Oso extends Animales {
   }
   Rugir() {
     let sonido = this.getSonido();
-    this.setSonido("Rugido.mp3");
+    return "./assets/sounds/Rugido.mp3";
   }
 }
 
@@ -38,7 +38,7 @@ class Serpiente extends Animales {
   }
   Sisear() {
     let sonido = this.getSonido();
-    this.setSonido("sisear");
+    return "./assets/sounds/Siseo.mp3";
   }
 }
 
@@ -48,7 +48,7 @@ class Aguila extends Animales {
   }
   Chillar() {
     let sonido = this.getSonido();
-    this.setSonido("chillar");
+    return "./assets/sounds/Chillido.mp3";
   }
 }
 
